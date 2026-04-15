@@ -70,6 +70,7 @@ Prompts:
 - Cases where the system overfits to one preference  
 - Ways the scoring might unintentionally favor some users  
 
+Extreme energy users might get more biased results. A user with a target energy of 1.0 maxes out at 0.97, while a user with target energy of 0.5 can hot a perfect 1.0. Users at edges of the energy preferences are disavantaged. 
 ---
 
 ## 7. Evaluation  
@@ -84,6 +85,8 @@ Prompts:
 - Any simple tests or comparisons you ran  
 
 No need for numeric metrics unless you created some.
+
+Three profiled were tested(high energy pop, chill lofi, and deep intense rock). I looked at which results seemed to suit people's needs and matches. I checked whether reasons made sense. Two results stood for the impossible comfo of classical and energetic. System recoomended Empty Hallways which is a sad low-energy song which ended up matching only because of the genre that matched. 
 
 ---
 
